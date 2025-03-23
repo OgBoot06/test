@@ -1,0 +1,9 @@
+name: Vérification d'une pull-request
+
+# Condition de déclenchement
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+jobs:
+
+# A compléter
